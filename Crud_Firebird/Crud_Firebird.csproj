@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FirebirdSql.Data.FirebirdClient" Version="8.5.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="FirebirdSql.Data.FirebirdClient">
+      <HintPath>C:\Users\Usuario\.nuget\packages\firebirdsql.data.firebirdclient\8.5.4\lib\net5.0\FirebirdSql.Data.FirebirdClient.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
